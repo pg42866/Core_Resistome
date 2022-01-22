@@ -28,7 +28,7 @@ final_df = pd.concat([resfinder_final, card_final])
 #print(final_df)
 header=list(final_df.columns)
 #print(header)
-#final_df.to_csv(r'/Users/diogo/Desktop/final_df.csv', columns=header, index=False)
+final_df.to_csv(r'/Users/diogo/Desktop/final_df.csv', columns=header, index=False)
 display(final_df)
 
 
